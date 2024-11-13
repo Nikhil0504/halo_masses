@@ -1,0 +1,42 @@
+# sweep.yaml
+program: src/wandb_run_advgnn.py
+project: cosmic-graph  # Explicitly specify the project name
+method: grid  # You can also use 'random' or 'bayes' if you prefer
+metric:
+  name: valid_loss
+  goal: minimize
+parameters:
+  snapshot:
+    value: 99
+  sim:
+    value: TC
+  run_name:
+    value: unormalised_distances_clusters_photcut
+  D_link:
+    value: 3
+  n_layers:
+    value: 3
+  n_hidden:
+    value: 16
+  n_latent:
+    value: 16
+  n_unshared_layers:
+    value: 8
+  k_0:
+    values: [0, 1, 2, 3]  # Replace with the values of k_0 you want to test
+  learning_rate:
+    value: 1e-2  # Fixed parameters
+  epochs:
+    value: 300
+  weight_decay:
+    value: 1e-4
+  num_parts:
+    value: 48
+  batch_size:
+    value: 1
+  K:
+    value: 4
+  periodic:
+    value: True
+  augment:
+    value: True

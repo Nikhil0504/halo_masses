@@ -1,0 +1,11 @@
+*venv/
+__pycache__/
+.ipynb_checkpoints/
+wandb/
+models/
+figures/
+results/
+*.db
+.DS_Store
+pickle/
+pyrightconfig.json
