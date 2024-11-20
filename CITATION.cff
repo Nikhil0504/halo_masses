@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as follows."
+authors:
+  - family-names: "Garuda"
+    given-names: "Nikhil"
+  - family-names: "Wu"
+    given-names: "John F."
+  - family-names: "Nelson"
+    given-names: "Dylan"
+  - family-names: "Pillepich"
+    given-names: "Annalisa"
+title: "Estimating Dark Matter Halo Masses in Simulated Galaxy Clusters with Graph Neural Networks"
+year: 2024
+url: "https://arxiv.org/abs/2411.12629"
+identifiers:
+  - type: arXiv
+    value: "2411.12629"
+abstract: "Estimating Dark Matter Halo Masses in Simulated Galaxy Clusters with Graph Neural Networks"
+archive-prefix: "arXiv"
+primary-class: "astro-ph.GA"
